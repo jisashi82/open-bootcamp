@@ -1,4 +1,4 @@
-package com.codezone.funciones.sentenciascontrol;
+package com.codezone.sentenciascontrol;
 
 public class Ejercicio4 {
 
@@ -64,7 +64,7 @@ public class Ejercicio4 {
 		switch (estacion.toUpperCase()) {
 		case "VERANO" -> System.out.println("La estacion es " + estacion);
 		case "INVIERNO" -> System.out.println("La estacion es " + estacion);
-		case "OTOÑO" -> System.out.println("La estacion es " + estacion);
+		case "OTOÑO" -> System.out.println("La estac statusion es " + estacion);
 		case "PRIMAVERA" -> System.out.println("La estacion es " + estacion);
 
 		default -> System.out.println("Valor Inesperado: " + estacion);
